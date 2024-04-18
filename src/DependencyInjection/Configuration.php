@@ -23,7 +23,7 @@ class Configuration implements ConfigurationInterface
     /**
      * @return TreeBuilder
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder('tq_ext_js_application');
         $rootNode    = $treeBuilder->getRootNode();
